@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function DestinationHeroEditorial() {
     return (
@@ -52,6 +53,7 @@ export default function DestinationHeroEditorial() {
                         className="mt-10 flex flex-wrap gap-6"
                     >
                         {/* Explore Gallery Button */}
+                        <Link href={"/gallery"}>
                         <motion.button
                             whileHover={{ y: -4 }}
                             whileTap={{ scale: 0.95 }}
@@ -69,24 +71,10 @@ export default function DestinationHeroEditorial() {
                                 Explore Gallery
                             </span>
                         </motion.button>
+                        </Link>
 
-                        {/* Book Shoot Button */}
-                        <motion.button
-                            whileHover={{ y: -4 }}
-                            whileTap={{ scale: 0.95 }}
-                            className="relative px-9 py-3 rounded-full overflow-hidden
-               border border-primary text-primary font-medium tracking-wide
-               group"
-                        >
-                            {/* Fill animation */}
-                            <span className="absolute inset-0 bg-primary 
-      scale-x-0 origin-left group-hover:scale-x-100
-      transition-transform duration-500" />
-
-                            <span className="relative z-10 group-hover:text-white transition-colors">
-                                Book Shoot
-                            </span>
-                        </motion.button>
+                    
+                        
                     </motion.div>
 
                 </div>

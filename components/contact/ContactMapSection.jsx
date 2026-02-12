@@ -23,8 +23,7 @@ export default function ContactMapSection() {
 
           <p className="mt-3 sm:mt-4 text-gray-600 
             text-sm sm:text-base">
-            Whether you prefer meeting in person or planning remotely —
-            we’re always close by.
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae lacus sed mauris placerat hendrerit.
           </p>
         </div>
 

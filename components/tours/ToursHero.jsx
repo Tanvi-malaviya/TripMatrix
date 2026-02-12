@@ -84,7 +84,7 @@ export default function ToursHero() {
             <motion.a
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.95 }}
-              href="#tours"
+              href="/about"
               className="
                 text-center
                 px-8 sm:px-10 py-3 sm:py-4

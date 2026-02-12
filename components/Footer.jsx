@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -13,22 +14,41 @@ export default function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
 
           {/* Brand */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-          >
-            <h3 className="text-2xl font-bold mb-4">
-              OCEAN
-              <span className="text-[var(--color-accent)]">BREEZE</span>
-            </h3>
+    <motion.div
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.5 }}
+  viewport={{ once: true }}
+>
+  {/* Logo Row */}
+  <div className="flex items-center gap-3 mb-4">
 
-            <p className="text-gray-600 text-sm leading-relaxed max-w-sm">
-              Discover breathtaking destinations and curated travel
-              experiences crafted for unforgettable journeys.
-            </p>
-          </motion.div>
+    {/* Logo Image */}
+    <div className="relative w-8 h-8">
+      <Image
+        src="/logo.png"
+        alt="Ocean Breeze Logo"
+        fill
+        className="object-contain"
+      />
+    </div>
+
+    {/* Logo Text */}
+    <h3
+      className="text-2xl text-primary font-bold leading-none"
+      style={{ fontFamily: "var(--font-heading)" }}
+    >
+      TripMatrix
+      
+    </h3>
+  </div>
+
+  {/* Description */}
+  <p className="text-gray-600 text-sm leading-relaxed max-w-sm">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Curabitur vitae lacus sed mauris placerat hendrerit.
+  </p>
+</motion.div>
 
           {/* Quick Links */}
           <div>
@@ -40,6 +60,7 @@ export default function Footer() {
               <li><Link href="/destinations">Destinations</Link></li>
               <li><Link href="/tours">Beach Tours</Link></li>
               <li><Link href="/stays">Island Stays</Link></li>
+               <li><Link href="/gallery">Gallery</Link></li>
               
             </ul>
           </div>

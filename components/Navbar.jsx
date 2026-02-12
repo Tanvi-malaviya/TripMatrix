@@ -10,6 +10,8 @@ import Link from "next/link";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
+import CommonModal from "./CommonModal";
+import Image from "next/image";
 
 const navLinks = [
   { name: "Destinations", href: "/destinations" },
@@ -24,6 +26,8 @@ export default function FloatingWaveNavbar() {
   const pathname = usePathname();
 
   const [mobileOpen, setMobileOpen] = useState(false);
+ const [isModalOpen, setIsModalOpen] = useState(false);
+
 
   const navY = useTransform(scrollY, [0, 120], [-80, 0]);
   const background = useTransform(
@@ -34,19 +38,42 @@ export default function FloatingWaveNavbar() {
   const blur = useTransform(scrollY, [0, 120], ["blur(0px)", "blur(16px)"]);
 
   return (
+    <>
     <motion.header
       style={{ y: navY, backgroundColor: background, backdropFilter: blur }}
       className="fixed top-0 left-0 w-full z-50 border-b border-transparent"
     >
       <nav className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-6 py-4 flex items-center justify-between">
 
-        {/* LOGO */}
-        <Link
-          href="/"
-          className="text-xl sm:text-2xl font-bold text-[#0E7490]"
-        >
-          OCEAN<span className="text-[#38BDF8]">BREEZE</span>
-        </Link>
+     
+
+{/* LOGO */}
+<Link
+  href="/"
+  className="flex items-center gap-2 sm:gap-3"
+>
+  {/* Logo Image */}
+  <div className="relative w-8 h-8 sm:w-10 sm:h-10">
+    <Image
+      src="/logo.png"   // change if your logo name is different
+      alt="Ocean Breeze Logo"
+      fill
+      className="object-contain"
+      priority
+    />
+  </div>
+
+  {/* Logo Text */}
+  {/* Logo Text */}
+<span
+  className="text-3xl sm:text-2xl font-bold text-primary leading-none uppercase tracking-wider"
+  style={{ fontFamily: "var(--font-heading)" }}
+>
+  TripMatrix
+</span>
+
+</Link>
+
 
         {/* DESKTOP NAV */}
         <div className="hidden md:flex items-center gap-8 lg:gap-10">
@@ -86,14 +113,15 @@ export default function FloatingWaveNavbar() {
           whileTap={{ scale: 0.95 }}
           className="hidden md:block"
         >
-          <Link
-            href="/book"
-            className="px-6 py-3 rounded-full bg-[#FACC15] 
-            text-[#0F172A] text-sm font-semibold 
-            shadow-md shadow-[#FACC15]/40"
-          >
-            ☀️ Plan Trip
-          </Link>
+         <button
+  onClick={() => setIsModalOpen(true)}
+  className="px-6 py-3 rounded-full bg-[#FACC15] 
+  text-[#0F172A] text-sm font-semibold 
+  shadow-md shadow-[#FACC15]/40"
+>
+   Plan Trip
+</button>
+
         </motion.div>
 
         {/* MOBILE BUTTON */}
@@ -137,19 +165,28 @@ export default function FloatingWaveNavbar() {
                 );
               })}
 
-              <Link
-                href="/book"
-                onClick={() => setMobileOpen(false)}
-                className="mt-4 inline-flex justify-center items-center 
-                px-6 py-3 rounded-full bg-[#FACC15] 
-                text-[#0F172A] font-semibold"
-              >
-                ☀️ Plan Trip
-              </Link>
+             <button
+  onClick={() => {
+    setMobileOpen(false);
+    setIsModalOpen(true);
+  }}
+  className="mt-4 inline-flex justify-center items-center 
+  px-6 py-3 rounded-full bg-[#FACC15] 
+  text-[#0F172A] font-semibold"
+>
+  ☀️ Plan Trip
+</button>
+
             </div>
           </motion.div>
         )}
       </AnimatePresence>
     </motion.header>
+
+    <CommonModal
+  isOpen={isModalOpen}
+  onClose={() => setIsModalOpen(false)}
+/>
+    </>
   );
 }

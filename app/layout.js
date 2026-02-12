@@ -22,6 +22,12 @@ const stardosStencil = Stardos_Stencil({
 export const metadata = {
   title: "Travel & Photography",
   description: "Luxury travel & photography experiences",
+    icons: {
+    icon: [
+      { url: "/logo.png", type: "image/png" },
+    ],
+  },
+ 
 };
 
 export default function RootLayout({ children }) {

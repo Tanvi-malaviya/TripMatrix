@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { PhoneCall, Sparkles } from "lucide-react";
+import Link from "next/link";
 
 export default function FinalToursCTA() {
   return (
@@ -56,6 +57,7 @@ export default function FinalToursCTA() {
           className="mt-12 flex flex-col sm:flex-row gap-6 justify-center"
         >
           {/* Primary CTA */}
+          <Link href={"/contacts"}>
           <motion.button
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
@@ -65,6 +67,7 @@ export default function FinalToursCTA() {
           >
             Plan My Tour
           </motion.button>
+          </Link>
 
           {/* Secondary CTA */}
           <motion.a

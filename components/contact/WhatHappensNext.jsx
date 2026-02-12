@@ -7,17 +7,17 @@ const steps = [
   {
     icon: MailOpen,
     title: "We Review Your Request",
-    desc: "Our travel designers carefully go through your preferences and ideas.",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae lacus sed mauris placerat hendrerit..",
   },
   {
     icon: PhoneCall,
     title: "Personal Consultation",
-    desc: "A destination expert contacts you to refine every detail of your journey.",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae lacus sed mauris placerat hendrerit.",
   },
   {
     icon: MapPinned,
     title: "Your Journey Begins",
-    desc: "We craft and deliver a seamless, luxury experience made just for you.",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae lacus sed mauris placerat hendrerit.",
   },
 ];
 
@@ -38,8 +38,7 @@ export default function WhatHappensNext() {
             What Happens Next?
           </h2>
           <p className="mt-4 text-gray-600">
-            From your first message to your final destination — we handle
-            everything with care and precision.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae lacus sed mauris placerat hendrerit.
           </p>
         </div>
 

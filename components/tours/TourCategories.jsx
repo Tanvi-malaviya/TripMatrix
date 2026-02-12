@@ -96,7 +96,7 @@ export default function TourCategories() {
                 </h3>
 
                 {/* CTA */}
-                <span className="
+                {/* <span className="
                   inline-block mt-3 sm:mt-4
                   text-sm font-medium
                   opacity-100 sm:opacity-0
@@ -104,7 +104,7 @@ export default function TourCategories() {
                   transition
                 ">
                   Explore Tours →
-                </span>
+                </span> */}
               </div>
             </motion.div>
           ))}
