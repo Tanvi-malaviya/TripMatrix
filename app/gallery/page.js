@@ -30,19 +30,19 @@ const images = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
   },
   {
-    src: "/desti1.jpg",
+    src: "/desti1.webp",
     category: "Beaches",
     title: "Hidden Cove",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
   },
   {
-    src: "/desti2.jpg",
+    src: "/desti2.webp",
     category: "Islands",
     title: "Santorini Glow",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
   },
   {
-    src: "/desti3.jpg",
+    src: "/desti3.webp",
     category: "Experiences",
     title: "Private Dinner",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",

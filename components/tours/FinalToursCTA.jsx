@@ -57,7 +57,7 @@ export default function FinalToursCTA() {
           className="mt-12 flex flex-col sm:flex-row gap-6 justify-center"
         >
           {/* Primary CTA */}
-          <Link href={"/contacts"}>
+          <Link href={"/contact"}>
           <motion.button
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}

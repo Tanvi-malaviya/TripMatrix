@@ -6,7 +6,7 @@ import Image from "next/image";
 const destinations = [
   {
     title: "Paris",
-    image: "/home1.jpg",
+    image: "/home1.webp",
   },
   {
     title: "Santorini",

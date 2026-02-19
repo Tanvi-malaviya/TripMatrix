@@ -25,7 +25,7 @@ export default function CinematicHeroSection() {
         className="absolute inset-0"
       >
         <img
-          src="/home1.jpg" 
+          src="/home1.webp" 
           alt="Travel"
           className="w-full h-full object-cover"
         />

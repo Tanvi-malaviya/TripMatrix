@@ -6,11 +6,11 @@ import { useState } from "react";
 
 const images = [
   { src: "/travel1.avif", title: "Santorini" },
-  { src: "/maldives.jpg", title: "Maldives" },
+  { src: "/maldives.webp", title: "Maldives" },
   { src: "/swiss.avif", title: "Swiss Alps" },
-  { src: "/bali.jpg", title: "Bali" },
-  { src: "/home1.jpg", title: "Paris" },
-  { src: "/bali.jpg", title: "Tokyo" },
+  { src: "/bali.webp", title: "Bali" },
+  { src: "/home1.webp", title: "Paris" },
+  { src: "/bali.webp", title: "Tokyo" },
 ];
 
 export default function LuxuryTravelGallery() {

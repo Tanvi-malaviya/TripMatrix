@@ -10,7 +10,7 @@ export default function ToursHero() {
       {/* Background */}
       <div className="absolute inset-0">
         <Image
-          src="/desti1.jpg"
+          src="/desti1.webp"
           alt="Luxury Tours"
           fill
           priority

@@ -119,7 +119,7 @@ export default function PremiumContactForm() {
           <p className="mt-3 sm:mt-4 text-center 
             text-xs sm:text-sm text-gray-500"
           >
-            🔒 Your information is safe & never shared
+             Your information is safe & never shared
           </p>
 
         </motion.form>

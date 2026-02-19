@@ -7,17 +7,17 @@ const categories = [
   {
     title: "Beach Escapes",
     subtitle: "Sun • Sand • Serenity",
-    image: "/desti1.jpg",
+    image: "/desti1.webp",
   },
   {
     title: "Adventure Trails",
     subtitle: "Thrill • Nature • Challenge",
-    image: "/desti2.jpg",
+    image: "/desti2.webp",
   },
   {
     title: "Cultural Wonders",
     subtitle: "Heritage • Stories • Traditions",
-    image: "/desti3.jpg",
+    image: "/desti3.webp",
   },
   {
     title: "Honeymoon Specials",
@@ -27,7 +27,7 @@ const categories = [
   {
     title: "Luxury Retreats",
     subtitle: "Comfort • Elegance • Peace",
-    image: "/bali.jpg",
+    image: "/bali.webp",
   },
   {
     title: "Wildlife Journeys",

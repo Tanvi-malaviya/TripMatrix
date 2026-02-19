@@ -24,7 +24,7 @@ export const metadata = {
   description: "Luxury travel & photography experiences",
     icons: {
     icon: [
-      { url: "/logo.png", type: "image/png" },
+      { url: "/logo.webp", type: "image/webp" },
     ],
   },
  

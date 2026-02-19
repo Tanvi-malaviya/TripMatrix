@@ -96,7 +96,7 @@ export default function WhatHappensNext() {
           viewport={{ once: true }}
           className="mt-16 text-center text-sm text-gray-500"
         >
-          ✨ Most travelers hear back within <strong>24 hours</strong>
+           Most travelers hear back within <strong>24 hours</strong>
         </motion.p>
 
       </div>

@@ -10,7 +10,7 @@ export default function FinalCTASection() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/home1.jpg"
+          src="/home1.webp"
           alt="Final CTA"
           className="w-full h-full object-cover"
         />

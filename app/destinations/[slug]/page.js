@@ -7,7 +7,7 @@ const experiences = [
   {
     title: "Honeymoon Escapes",
     desc: "Romantic destinations crafted for unforgettable beginnings.",
-    image: "/maldives.jpg",
+    image: "/maldives.webp",
     slug: "honeymoon-escapes",
   },
   {
@@ -25,7 +25,7 @@ const experiences = [
   {
     title: "Island Retreats",
     desc: "Secluded beaches and slow luxury living.",
-    image: "/bali.jpg",
+    image: "/bali.webp",
     slug: "island-retreats",
   },
 ];

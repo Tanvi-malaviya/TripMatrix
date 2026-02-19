@@ -16,7 +16,7 @@ export function FinalCTASection() {
                 className="absolute inset-0"
             >
                 <img
-                    src="/desti3.jpg"
+                    src="/desti3.webp"
                     alt="Travel"
                     className="w-full h-full object-cover"
                 />

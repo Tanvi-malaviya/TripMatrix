@@ -55,7 +55,7 @@ export default function FloatingWaveNavbar() {
   {/* Logo Image */}
   <div className="relative w-8 h-8 sm:w-10 sm:h-10">
     <Image
-      src="/logo.png"   // change if your logo name is different
+      src="/logo.webp"   // change if your logo name is different
       alt="Ocean Breeze Logo"
       fill
       className="object-contain"

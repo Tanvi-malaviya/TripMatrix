@@ -18,7 +18,7 @@ export default function FounderStorySection() {
           overflow-hidden shadow-2xl aspect-[4/5] sm:aspect-[3/4] lg:aspect-[4/5]"
         >
           <Image
-            src="/founder.jpg"
+            src="/founder.webp"
             alt="Founder"
             fill
             className="object-contain sm:object-cover"

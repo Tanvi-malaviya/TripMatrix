@@ -9,7 +9,7 @@ const packages = [
     title: "Maldives Escape",
     duration: "5 Days / 4 Nights",
     price: "₹75,000",
-    image: "/maldives.jpg",
+    image: "/maldives.webp",
   },
   {
     title: "Swiss Alps Journey",
@@ -21,7 +21,7 @@ const packages = [
     title: "Bali Luxury Retreat",
     duration: "6 Days / 5 Nights",
     price: "₹65,000",
-    image: "/bali.jpg",
+    image: "/bali.webp",
   },
   {
     title: "Dubai Premium Tour",

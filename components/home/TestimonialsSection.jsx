@@ -7,25 +7,25 @@ const testimonials = [
   {
     name: "Riya Sharma",
     location: "Maldives",
-    image: "/user1.jpg",
+    image: "/user1.webp",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
   },
   {
     name: "Amit Patel",
     location: "Swiss Alps",
-    image: "/user2.jpg",
+    image: "/user2.webp",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
   },
   {
     name: "Neha Kapoor",
     location: "Bali",
-    image: "/user3.jpg",
+    image: "/user3.webp",
    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
   },
   {
     name: "ABC Kapoor",
     location: "Bali",
-    image: "/user3.jpg",
+    image: "/user3.webp",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
   },
 ];

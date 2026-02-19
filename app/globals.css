@@ -33,12 +33,12 @@
 }
 
 /* Optional dark mode (still calm, not full dark) */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #020617;
     --foreground: #E5E7EB;
   }
-}
+} */
 
 
 /* BODY TEXT */
